@@ -5,8 +5,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className='w-full h-full'>
-      Lets fuck shit up
+    <div className=''>
+      LETS FUCK SHIT UP
     </div>
   )
 }
