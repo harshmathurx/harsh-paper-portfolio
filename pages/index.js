@@ -35,20 +35,45 @@ export default function Home() {
       </div>
       <div className='flex flex-col justify-center items-center'>
         <p className='text-3xl font-semibold my-5'>
-          my work
+          some of my work
         </p>
-        <div>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt corporis maxime tempore minima vitae officiis!
+        <div className='flex flex-col md:flex-row justify-center items-center my-5'>
+          <Image src='/images/project_placeholder.jpg' className='rounded-sm mx-5 my-5 md:my-2' width={250} height={150} />
+          <div>
+            <p className='text-xl font-bold'>project title</p>
+            <p className='my-0.5'>
+              - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at quas, error sapiente nostrum.
+            </p>
+            <p className='my-0.5'>
+              - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at quas, error sapiente nostrum.
+            </p>
+            <p className='my-0.5'>
+              - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at quas, error sapiente nostrum.
+            </p>
+            <p className='my-0.5'>
+              - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at quas, error sapiente nostrum.
+            </p>
+          </div>
         </div>
-        <div>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt corporis maxime tempore minima vitae officiis!
+        <div className='flex flex-col md:flex-row justify-center items-center my-5'>
+          <Image src='/images/project_placeholder.jpg' className='rounded-sm mx-5 my-5 md:my-2' width={250} height={150} />
+          <div>
+            <p className='text-xl font-bold'>project title</p>
+            <p className='my-0.5'>
+              - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at quas, error sapiente nostrum.
+            </p>
+            <p className='my-0.5'>
+              - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at quas, error sapiente nostrum.
+            </p>
+            <p className='my-0.5'>
+              - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at quas, error sapiente nostrum.
+            </p>
+            <p className='my-0.5'>
+              - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at quas, error sapiente nostrum.
+            </p>
+          </div>
         </div>
-        <div>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt corporis maxime tempore minima vitae officiis!
-        </div>
-        <div>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt corporis maxime tempore minima vitae officiis!
-        </div>
+
       </div>
     </div>
   )
