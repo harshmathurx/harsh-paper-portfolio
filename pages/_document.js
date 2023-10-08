@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body className=''>
+      <body className='flex flex-col min-h-screen'>
         {/* <div style={{
           position: "absolute",
           background: "url(/bg-grain.svg)",
