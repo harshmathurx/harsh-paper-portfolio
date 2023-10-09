@@ -4,7 +4,7 @@ import Link from "next/link"
 
 const ProjectCard = ({imageSrc,children,demoLink,githubLink,projectName}) => {
 
-    const {theme} = useTheme
+    const {theme} = useTheme()
 
     return (
         <div className='flex flex-col md:flex-row justify-center items-center my-5'>

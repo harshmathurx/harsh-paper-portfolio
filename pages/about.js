@@ -16,16 +16,6 @@ const About = () => {
             </div>
             <div className='flex flex-col justify-center items-center'>
                 <p className='text-3xl font-semibold my-5'>
-                    what do I do?
-                </p>
-                <div className='flex flex-col md:flex-row justify-center items-center'>
-                    <p className='md:w-[85%] text-center'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi harum eius accusantium vero quas atque ab veniam minima saepe veritatis corrupti, quia sapiente. Iusto optio vel recusandae. Libero veritatis hic non et dolore, consectetur officia.
-                    </p>
-                </div>
-            </div>
-            <div className='flex flex-col justify-center items-center'>
-                <p className='text-3xl font-semibold my-5'>
                     my journey
                 </p>
                 <div className='flex flex-col md:flex-row justify-center items-center'>

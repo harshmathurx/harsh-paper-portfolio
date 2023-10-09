@@ -27,38 +27,22 @@ export default function Home() {
         <p className='text-3xl font-semibold my-5'>
           some of my work
         </p>
-        <ProjectCard imageSrc="/images/project_placeholder.jpg" demoLink="/" githubLink="/" projectName="some project">
-          <div>
-            <p className='my-0.5'>
-              - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at quas, error sapiente nostrum.
-            </p>
-            <p className='my-0.5'>
-              - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at quas, error sapiente nostrum.
-            </p>
-            <p className='my-0.5'>
-              - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at quas, error sapiente nostrum.
-            </p>
-            <p className='my-0.5'>
-              - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at quas, error sapiente nostrum.
-            </p>
-          </div>
-        </ProjectCard>
-        <ProjectCard imageSrc="/images/project_placeholder.jpg" demoLink="/" githubLink="/" projectName="some project">
-          <div>
-            <p className='my-0.5'>
-              - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at quas, error sapiente nostrum.
-            </p>
-            <p className='my-0.5'>
-              - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at quas, error sapiente nostrum.
-            </p>
-            <p className='my-0.5'>
-              - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at quas, error sapiente nostrum.
-            </p>
-            <p className='my-0.5'>
-              - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at quas, error sapiente nostrum.
-            </p>
-          </div>
-        </ProjectCard>
+        <div className='flex flex-row flex-wrap'>
+          <ProjectCard imageSrc="/images/project_placeholder.jpg" demoLink="/" githubLink="/" projectName="some project">
+            <div>
+              <p className='my-0.5'>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam veniam eveniet iusto ea earum voluptates suscipit voluptatum itaque ad sequi repellat harum nemo minima eos aut, perspiciatis facilis magni nostrum possimus maxime! Earum cum neque dolorem ipsum accusantium voluptates minus totam repudiandae, placeat temporibus dolore obcaecati, similique reprehenderit nesciunt cupiditate.
+              </p>
+            </div>
+          </ProjectCard>
+          <ProjectCard imageSrc="/images/project_placeholder.jpg" demoLink="/" githubLink="/" projectName="some project">
+            <div>
+              <p className='my-0.5'>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam veniam eveniet iusto ea earum voluptates suscipit voluptatum itaque ad sequi repellat harum nemo minima eos aut, perspiciatis facilis magni nostrum possimus maxime! Earum cum neque dolorem ipsum accusantium voluptates minus totam repudiandae, placeat temporibus dolore obcaecati, similique reprehenderit nesciunt cupiditate.
+              </p>
+            </div>
+          </ProjectCard>
+        </div>
         <RedirectButton link="/work" btnText="check out more of my work" />
       </div>
       <div className='flex flex-col justify-center items-center text-center'>
@@ -68,9 +52,11 @@ export default function Home() {
         <div className='mb-5 flex flex-row justify-center flex-wrap items-center'>
           <ReccoCard imageSrc="/images/barry.jpg" reccoLink="/" />
           <ReccoCard imageSrc="/images/fleabag.jpg" reccoLink="/" />
-          <ReccoCard imageSrc="/images/seinfeld.png" reccoLink="/" />
+          <ReccoCard imageSrc="/images/superpumped.jpg" reccoLink="/" />
           <ReccoCard imageSrc="/images/show_your_work.jpg" reccoLink="/" />
-          <ReccoCard imageSrc="/images/got.jpg" reccoLink="/" />
+          <div className="m-2">
+            <iframe width="275" height="200" src="https://www.youtube.com/embed/gIxEkX_2kt8?si=2yR1f-orWFifR_Af" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
         </div>
         <RedirectButton link="/recommendations" btnText="learn about my cultured tastebuds" />
       </div>
