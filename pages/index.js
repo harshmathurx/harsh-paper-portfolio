@@ -16,10 +16,10 @@ export default function Home() {
         <div className='flex flex-col md:flex-row justify-center items-center'>
           <Image src="/images/harsh_mathur.jpg" width={150} height={150} className='rounded-full md:w-[15%] mx-10 my-5' />
           <p className='md:w-[85%] text-center'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi perspiciatis quis officiis omnis error eius, magnam, excepturi distinctio deleniti nostrum dolores consequatur placeat neque, vero maxime minus autem itaque molestiae dignissimos? Asperiores laborum praesentium consequuntur, cumque delectus numquam esse voluptatum consectetur voluptate, reprehenderit repellat. Deserunt voluptatum animi sequi consequuntur unde, labore adipisci beatae odit consequatur ratione. Earum perferendis dolorem atque deserunt explicabo asperiores voluptates quod eaque dicta, quae culpa nulla cum eveniet facere a porro libero qui voluptatem deleniti non? Nihil, vero cupiditate ad, eligendi, architecto eveniet inventore non ducimus quibusdam voluptatem iste soluta? Repudiandae accusantium illo voluptatibus nostrum laborum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, praesentium itaque odit ab accusantium delectus quidem. Dolores omnis impedit neque, saepe ut eos reprehenderit, nihil voluptates iusto aliquam non optio!
           </p>
         </div>
-        <div className='mt-5'>
+        <div className=''>
           <RedirectButton link="/about" btnText="know more about me" />
         </div>
       </div>
@@ -28,17 +28,20 @@ export default function Home() {
           some of my work
         </p>
         <div className='flex flex-row flex-wrap'>
-          <ProjectCard imageSrc="/images/project_placeholder.jpg" demoLink="/" githubLink="/" projectName="some project">
+          <ProjectCard imageSrc="/products/thewalls.gif" demoLink="https://thewalls.vercel.app/" githubLink="https://github.com/harshmathurx/thewalls" projectName="the walls">
             <div>
-              <p className='my-0.5'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam veniam eveniet iusto ea earum voluptates suscipit voluptatum itaque ad sequi repellat harum nemo minima eos aut, perspiciatis facilis magni nostrum possimus maxime! Earum cum neque dolorem ipsum accusantium voluptates minus totam repudiandae, placeat temporibus dolore obcaecati, similique reprehenderit nesciunt cupiditate.
+              <p className='my-0.5 lowercase'>
+                The Walls is a new platform that seamlessly integrates with Spotify to provide users with an innovative way to curate and share their musical journey and their most loved tracks.
+              </p>
+              <p className='my-0.5 lowercase'>
+                With The Walls, users can create a customized virtual wall that reflects their musical taste in a few clicks. They can personalize their wall with a variety of gradient and media options, including their own uploaded images/media in the background. The Walls also highlights the user's music journey with their most-played songs, organized into Last Month, Last 6 Months, and All-Time categories.
               </p>
             </div>
           </ProjectCard>
-          <ProjectCard imageSrc="/images/project_placeholder.jpg" demoLink="/" githubLink="/" projectName="some project">
+          <ProjectCard imageSrc="/products/dianomi.png" demoLink="https://dianomi.vercel.app/" githubLink="https://github.com/harshmathurx/dianomi" projectName="dianomi">
             <div>
-              <p className='my-0.5'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam veniam eveniet iusto ea earum voluptates suscipit voluptatum itaque ad sequi repellat harum nemo minima eos aut, perspiciatis facilis magni nostrum possimus maxime! Earum cum neque dolorem ipsum accusantium voluptates minus totam repudiandae, placeat temporibus dolore obcaecati, similique reprehenderit nesciunt cupiditate.
+              <p className='my-0.5 lowercase'>
+                Dianomi is a developer tool that connects app/game creators with ideal beta testers and streamlines the testing process using a unique incentive system based on desired ERC20/ERC721 tokens. It also orchestrates exclusive token-gated live streams through Huddle01 for app/game creators to interact directly with their most enthusiastic supporters. Additionally, Dianomi has pioneered a launchpad platform on Web3, enabling app/game creators to raise funds and distribute assets to their communities.
               </p>
             </div>
           </ProjectCard>
@@ -53,6 +56,7 @@ export default function Home() {
           <ReccoCard imageSrc="/images/barry.jpg" reccoLink="/" />
           <ReccoCard imageSrc="/images/fleabag.jpg" reccoLink="/" />
           <ReccoCard imageSrc="/images/superpumped.jpg" reccoLink="/" />
+          <ReccoCard imageSrc="/images/ted_lasso.jpg" reccoLink="/" />
           <ReccoCard imageSrc="/images/show_your_work.jpg" reccoLink="/" />
           <div className="m-2">
             <iframe width="275" height="200" src="https://www.youtube.com/embed/gIxEkX_2kt8?si=2yR1f-orWFifR_Af" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

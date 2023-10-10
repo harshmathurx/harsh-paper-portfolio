@@ -20,6 +20,7 @@ const Recommendations = () => {
           <ReccoCard imageSrc="/images/barry.jpg" reccoLink="/" />
           <ReccoCard imageSrc="/images/fleabag.jpg" reccoLink="/" />
           <ReccoCard imageSrc="/images/superpumped.jpg" reccoLink="/" />
+          <ReccoCard imageSrc="/images/ted_lasso.jpg" reccoLink="/" />
           <ReccoCard imageSrc="/images/seinfeld.png" reccoLink="/" />
           <ReccoCard imageSrc="/images/got.jpg" reccoLink="/" />
         </div>
