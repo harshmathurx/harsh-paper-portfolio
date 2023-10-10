@@ -34,7 +34,7 @@ export default function Home() {
                 The Walls is a new platform that seamlessly integrates with Spotify to provide users with an innovative way to curate and share their musical journey and their most loved tracks.
               </p>
               <p className='my-0.5 lowercase'>
-                With The Walls, users can create a customized virtual wall that reflects their musical taste in a few clicks. They can personalize their wall with a variety of gradient and media options, including their own uploaded images/media in the background. The Walls also highlights the user's music journey with their most-played songs, organized into Last Month, Last 6 Months, and All-Time categories.
+                With The Walls, users can create a customized virtual wall that reflects their musical taste in a few clicks. They can personalize their wall with a variety of gradient and media options, including their own uploaded images/media in the background. The Walls also highlights the user&#39;s music journey with their most-played songs, organized into Last Month, Last 6 Months, and All-Time categories.
               </p>
             </div>
           </ProjectCard>
