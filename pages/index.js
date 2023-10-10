@@ -50,7 +50,7 @@ export default function Home() {
       </div>
       <div className='flex flex-col justify-center items-center text-center'>
         <p className='text-3xl font-semibold my-5'>
-          some of my reccomendations
+          some of my recommendations
         </p>
         <div className='mb-5 flex flex-row justify-center flex-wrap items-center'>
           <ReccoCard imageSrc="/images/barry.jpg" reccoLink="/" />
