@@ -8,23 +8,26 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className='flex flex-col justify-center items-center mx-[5%] md:mx-[10%] py-8'>
+    <div className='flex flex-col justify-center items-center mx-[5%] md:mx-[10%] py-8 '>
       <div className='flex flex-col justify-center items-center'>
-        <p className='text-3xl font-semibold my-5'>
-          who am I?
-        </p>
-        <div className='flex flex-col md:flex-row justify-center items-center'>
-          <Image src="/images/harsh_mathur.jpg" width={150} height={150} className='rounded-full md:w-[15%] mx-10 my-5' />
-          <p className='md:w-[85%] text-center'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, praesentium itaque odit ab accusantium delectus quidem. Dolores omnis impedit neque, saepe ut eos reprehenderit, nihil voluptates iusto aliquam non optio!
-          </p>
+        <div className='my-2 flex flex-col items-center md:flex-row md:mx-4 lowercase'>
+          <div>
+            <p className='text-3xl font-semibold mb-1'>hi, I&#39;m harsh mathur</p>
+            <p>
+              A software engineer that specializes in frontend working for <span className='text-blue-600'>Macha.ai</span>, making it easier for people to use web3. I love bringing spectacular design to life, creating products which changes the way people interact with technology.
+            </p>
+            <p className='my-0.5'>
+              when not building, you can find me being a geek, watching sports, reading, obsessing about a movie, painting, listening to podcasts in the park or just in a corner talking about something people forgot about in 2007. all of this (professional or personal) comes with me having an unhealthy obsession of coffee.
+            </p>
+          </div>
+          <Image src="/images/harsh_mathur.jpg" width={200} height={200} className='rounded-lg m-5 md:mx-5' />
         </div>
         <div className=''>
           <RedirectButton link="/about" btnText="know more about me" />
         </div>
       </div>
       <div className='flex flex-col justify-center items-center'>
-        <p className='text-3xl font-semibold my-5'>
+        <p className='text-3xl font-semibold mt-5'>
           some of my work
         </p>
         <div className='flex flex-row flex-wrap'>
