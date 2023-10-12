@@ -56,14 +56,11 @@ export default function Home() {
           some of my recommendations
         </p>
         <div className='mb-5 flex flex-row justify-center flex-wrap items-center'>
-          <ReccoCard imageSrc="/images/barry.jpg" reccoLink="/" />
-          <ReccoCard imageSrc="/images/fleabag.jpg" reccoLink="/" />
-          <ReccoCard imageSrc="/images/superpumped.jpg" reccoLink="/" />
-          <ReccoCard imageSrc="/images/ted_lasso.jpg" reccoLink="/" />
-          <ReccoCard imageSrc="/images/show_your_work.jpg" reccoLink="/" />
-          <div className="m-2">
-            <iframe width="275" height="200" src="https://www.youtube.com/embed/gIxEkX_2kt8?si=2yR1f-orWFifR_Af" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
+        <ReccoCard imageSrc="/images/the_bear.jpg" reccoLink="https://www.imdb.com/title/tt14452776/?ref_=nv_sr_srsg_0_tt_3_nm_5_q_the%2520bear" />
+        <ReccoCard imageSrc="/images/bojack.jpg" reccoLink="https://www.imdb.com/title/tt3398228/?ref_=nv_sr_srsg_0_tt_7_nm_1_q_bojack" />
+        <ReccoCard imageSrc="/images/succession.jpg" reccoLink="https://www.imdb.com/title/tt7660850/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_succession" />
+        <ReccoCard imageSrc="/images/creativity_inc.jpg" reccoLink="https://www.goodreads.com/book/show/18077903-creativity-inc" />
+          <ReccoCard imageSrc="/images/steal_like_an_artist.png" reccoLink="https://www.goodreads.com/book/show/13099738-steal-like-an-artist?ref=nav_sb_ss_1_16" />
         </div>
         <RedirectButton link="/recommendations" btnText="learn about my cultured tastebuds" />
       </div>
