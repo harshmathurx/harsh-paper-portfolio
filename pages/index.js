@@ -14,7 +14,7 @@ export default function Home() {
           <div>
             <p className='text-3xl font-semibold mb-1'>hi, I&#39;m harsh mathur</p>
             <p>
-              A software engineer that specializes in frontend working for <span className='text-blue-600'>Macha.ai</span>, making it easier for people to use tech. I love bringing spectacular design to life, creating products which changes the way people interact with technology.
+              A software engineer that specializes in frontend working for <span className='text-blue-600'>Macha.ai</span>, making it easier for people to use tech. I love bringing spectacular design to life, creating products which change the way people interact with technology.
             </p>
             <p className='my-0.5'>
               when not building, you can find me being a geek, watching sports, reading, obsessing about a movie, painting a frame i liked from a movie, listening to podcasts in the park or just in a corner talking about something people forgot about in 2007. all of this (professional or personal) comes with me having an unhealthy obsession of coffee.
