@@ -4,6 +4,6 @@
 
 @layer base{
     body {
-        @apply bg-white dark:bg-neutral-900 dark:text-[#fffded] text-neutral-900 bg-repeat
+        @apply bg-white dark:bg-neutral-900 dark:text-[#Efeded] text-neutral-900 bg-repeat
     }
 }
