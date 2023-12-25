@@ -58,14 +58,14 @@ const Navbar = () => {
                   <span className="ml-2">recommendations</span>
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   className="px-3 py-2 h-full flex items-center text-xs lowercase font-bold leading-snug  hover:opacity-75 hover:underline"
                   href="https://drive.google.com/file/d/1Hj27qG4YM-SrlWRhOXIsjwdWzyPsYalQ/view?usp=sharing" target="_blank" onClick={() => setNavbarOpen(false)}
                 >
                   <span className="ml-2">resume</span>
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <button
                   className="px-3 py-2 h-full flex items-center text-xs lowercase font-bold leading-snug  hover:opacity-75 hover:underline"

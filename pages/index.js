@@ -1,10 +1,7 @@
 import ProjectCard from '@/components/ProjectCard'
 import ReccoCard from '@/components/ReccoCard'
 import RedirectButton from '@/components/RedirectButton'
-import { Inter } from 'next/font/google'
 import Image from 'next/image'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -31,7 +28,7 @@ export default function Home() {
           some of my work
         </p>
         <div className='flex flex-row flex-wrap'>
-          <ProjectCard imageSrc="/products/thewalls.gif" demoLink="https://thewalls.vercel.app/" githubLink="https://github.com/harshmathurx/thewalls" projectName="the walls">
+          <ProjectCard imageSrc="/products/thewalls.gif" demoLink="https://thewalls.vercel.app/" githubLink="https://github.com/cokelemonice/thewalls" projectName="the walls">
             <div>
               <p className='my-0.5 lowercase'>
                 The Walls is a new platform that seamlessly integrates with Spotify to provide users with an innovative way to curate and share their musical journey and their most loved tracks.
