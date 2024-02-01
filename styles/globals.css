@@ -6,4 +6,8 @@
     body {
         @apply bg-white dark:bg-neutral-900 dark:text-[#Efeded] text-neutral-900 bg-repeat
     }
+
+    svg{
+        @apply dark:fill-[#Efeded] fill-neutral-900
+    }
 }
